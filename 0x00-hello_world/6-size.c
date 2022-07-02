@@ -14,11 +14,11 @@ int main(void)
 	long long alongalong;
 	float decimal;
 
-	printf("Size of a char: %lu\n", sizeof(string));
-	printf("Size of an int: %lu\n", sizeof(number));
-	printf("Size of a long int: %lu\n", sizeof(along));
-	printf("Size of a long long int: %lu\n", sizeof(alongalong));
-	printf("Size of a float: %lu\n", sizeof(decimal));
+	printf("Size of a char: %lu byte(s)\n", sizeof(string));
+	printf("Size of an int: %lu byte(s)\n", sizeof(number));
+	printf("Size of a long int: %lu byte(s)\n", sizeof(along));
+	printf("Size of a long long int: %lu byte(s)\n", sizeof(alongalong));
+	printf("Size of a float: %lu byte(s)\n", sizeof(decimal));
 
 		return (0);
 }
