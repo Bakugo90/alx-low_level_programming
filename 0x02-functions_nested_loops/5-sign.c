@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * print_sign - prints signs of a number
  * @n: takes integer paramer n
