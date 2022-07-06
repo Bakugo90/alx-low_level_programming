@@ -1,22 +1,17 @@
 #include "main.h"
-#include <stdio.h>
-
 /**
- * _isupper - checks for uppercase character
- * @c: variable text
- * Descriotion: Variable text
- * Return: Always 0.
+ * print_alphabet - prints lowercase letters
+ * @void: void
+ * Description: prints alphabet in lowercase
+ * Return: all in lowercase
  */
-
-int _isupper(int c)
+void print_alphabet(void)
 {
+	char letter;
 
-	if (c >= 'A' && c <= 'Z')
+	for (letter = 'a'; letter <= 'z'; letter++)
 	{
-	return (1);
-	}
-	else
-	{
-	return (0);
+	_putchar(letter);
+	_putchar('\n');
 	}
 }
