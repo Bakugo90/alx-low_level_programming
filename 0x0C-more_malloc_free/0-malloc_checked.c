@@ -4,10 +4,10 @@
 #include <limits.h>
 
 /**
- * malloc_checked : Allocates memeory and check malloc
+ * malloc_checked-Allocates memeory and check malloc
  * @b : size to be allocates
- * 
- * Return :  return pointers on success and 98 on fail 
+ *
+ * Return: return pointers on success and 98 on fail
  */
 
 void *malloc_checked(unsigned int b)
@@ -18,6 +18,6 @@ void *malloc_checked(unsigned int b)
 	if (p == NULL)
 		exit(98);
 
-        free(p);
+	free(p);
 	return (p);
 }
