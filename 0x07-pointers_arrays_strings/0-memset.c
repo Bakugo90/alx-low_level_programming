@@ -1,18 +1,23 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- *_memset - fills the memory with constant byte
- * @s: destiny character pointer
- * @b: the character pointer that contains the bytes to be filled
- * @n: the number of bytes to be filled
- * Return: a character pointer
- */
+*_memset-Fill the memory with a constant bytes
+*@n:size of memory to print
+*@b: constants destiny to fill the memory
+*@s: address of memory
+*
+*Return: a pointers
+*/
+
 char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
-for (i = 0; n > 0; i++)
-{
-s[i] = b;
-n--;
-}
-return (s);
+    int i = 0;
+
+    for (i= 0; i<n; i++)
+    {
+        s=b;
+        printf("%lu", s);
+    }
+    return (0);
 }
