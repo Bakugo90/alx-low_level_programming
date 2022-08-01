@@ -5,7 +5,7 @@
 
 /**
  * malloc_checked-Allocates memeory and check malloc
- * @b : size to be allocates
+ * @b : size to be allocates in memory
  *
  * Return: return pointers on success and 98 on fail
  */
