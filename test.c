@@ -1,14 +1,30 @@
+#include "main.h"
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * user- Learning c structure
+ * _strlen - a function that returns a length of a string
+ * @s: a character pointer s
+ * Return: length of a string
  */
-
-struct structure
+int _strlen(char *s)
 {
-    int a;
-    struct structure *suivant;
+	int x;
+
+	x = 0;
+	if (s[x] == '\0')
+	{
+		x = 0;
+	}
+	else
+	{
+		for ( s[x] != '\0'; x++;)
+		{
+			while (s[x] != '\0')
+			{
+				x++;
+				continue;
+			}
+		}
+	}
+	putchar(s[x]);
 }
 
-struct structure *head = NULL;
