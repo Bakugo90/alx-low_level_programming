@@ -1,30 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 /**
- * _strlen - a function that returns a length of a string
- * @s: a character pointer s
- * Return: length of a string
+ * main - prints all the given arguments
+ * @argc: the number of arguments
+ * @argv: the array containing arguments
+ * Return: 0
  */
-int _strlen(char *s)
+int main(int ac, char *av[])
 {
-	int x;
+	int i;
 
-	x = 0;
-	if (s[x] == '\0')
+	for (i = 0; i < ac; i++)
 	{
-		x = 0;
+		printf("%s\n", av[i]);
 	}
-	else
-	{
-		for ( s[x] != '\0'; x++;)
-		{
-			while (s[x] != '\0')
-			{
-				x++;
-				continue;
-			}
-		}
-	}
-	putchar(s[x]);
+	return (0);
 }
-
