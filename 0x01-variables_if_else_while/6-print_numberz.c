@@ -1,19 +1,21 @@
 #include <stdio.h>
 
 /**
- * main-Entry point
- * @void: ...
- *
- * Return: digit number from 0 to 9.
- */
-
+  * main - Prints the numbers since 0 to 9
+  *
+  * Return: Always (Success)
+  */
 int main(void)
 {
-unsigned int i;
-for ( i = '0'; i <= '9'; i++ )
-{
-putchar(i);
+	int n;
+
+	for (n = '0'; n <= '9'; n++)
+	{
+		putchar(n);
+	}
+
+	putchar('\n');
+
+	return (0);
 }
-putchar('\n');
-return (0);
-}
+
