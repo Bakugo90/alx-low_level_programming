@@ -1,7 +1,5 @@
-#ifndef DYNLIB
-#define DYNLIB
-
-#include <stdlib.h>
+#ifndef _DYN_LIBS_
+#define _DYN_LIBS_
 
 int _putchar(char c);
 int _islower(int c);
